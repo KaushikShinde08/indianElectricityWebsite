@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html,body{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #4e2804;
+    align-content: center;
+    min-height: 100vh;
+    height: 100%;
+}
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    /*background: red;*/
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: #00b894;
+  }
+/* .navbar-brand {
+	    color: rgba(255, 192, 167, 0.932);
+        font-size: 29px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+} */
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 95vw;
+    margin: 0 auto;
+}
+.image{
+    background: url("img7.jpg") center/cover no-repeat;
+}
+.content{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 100px;
+    background: #777;
+    margin: 20px 0;
+}
+.content p{
+    top: 60px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    opacity: 0.7;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #4e2804;
+}
+.button {
+  background-color :#4e2804;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+    background-color: #f59f7d;
+}
+
+/*****************/
+
+@media(max-width: 992px){
+    .navbar-brand{
+        font-size: 15px;
+        top:10px;
+        left:15px; 
+    }
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo"> <h1 style="font-size: 30px;"> INDIAN ELECTRICITY WEBSITE </h1> </div>
+            <div class="menu">
+                <a href="Homepage.html" >Home</a>
+                <a href="about.html">about</a>
+                <a href="contactus.html">contact</a>
+            </div>
+        </nav>
+        <!-- <p class="navbar-brand" href="#">Saving Energy TODAY Will Make Your TOMORROW Bright.</p><br><br> -->
+        <section>
+            <div class = "image">
+                
+            </div>
+
+            <div class = "content">
+                <h2>About Us</h2>
+                <span><!-- line here --></span>
+
+                <p>The Ministry of Power started functioning independently with effect from 2nd July, 1992. Earlier it was known as the Ministry of Energy sources. Electricity is a concurrent subject at Entry 38 in List III of the seventh Schedule of the Constitution of India. The Ministry of Power is primarily responsible for the development of electrical energy in the country. The Ministry is concerned with perspective planning, policy formulation, processing of projects for investment decision, monitoring of the implementation of power projects, training and manpower development and the administration and enactment of legislation in regard to thermal, hydro power generation, transmission and distribution. The Ministry of Power is responsible for the Administration of the Electricity Act, 2003, the Energy Conservation Act , 2001 and to undertake such amendments to these Acts, as may be necessary from time to time, in conformity with the Government's policy objectives.</p>
+
+                <a href="Electricity.html" class="button">Let's Visit Electricity Website</a>
+
+                <ul class = "icons">
+                    <li>
+                        <i class = "fa fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class = "fa fa-pinterest"></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </body>
+</html>

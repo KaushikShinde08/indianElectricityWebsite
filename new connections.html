@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Connection</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: serif;
+            background-image: url("img8.jpg");
+            background-color: whitesmoke;
+            background-size: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: large;
+        }
+          
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    /*background: red;*/
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: #00b894;
+  }
+        .form
+        {
+            color: rgb(54, 53, 53);
+            /* width: 210vh;
+            height: 100vh; */
+            text-align: left;
+            
+        }
+        .inputBox
+        {
+            position: relative;
+            width: 100%;
+            margin: 30px;
+        }
+        h1
+        {
+            text-align: center;
+            color: rgb(202, 25, 25);
+            font-style:bold;
+        }
+        #f1 form{
+            background-color:rgba(234, 233, 236, 0.648);
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-right: 25%;
+            margin-left: 25%;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        input {
+            margin: 10px;
+            padding: 5px;
+            width: 200px;
+        }
+        .bbss{
+            margin-left: 0;
+            margin-right: 0;
+            width: 20px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"> <h1 style="font-size: 30px;"> INDIAN ELECTRICITY WEBSITE </h1> </div>
+        <div class="menu">
+            <a href="Homepage.html" >Home</a>
+            <a href="about.html">about</a>
+            <a href="contactus.html">contact</a>
+        </div>
+    </nav>
+    
+    <div class="form" id="f1">
+        <form>
+            <h1>NEW CONNECTIONS</h1>
+            <div class="inputBox">
+               Full Name: <input type="text" placeholder="Full name">
+            </div>
+            <div class="inputBox">
+                First Name: <input type="text" placeholder="First Name">
+                Last Name: <input type="text" placeholder="Last Name">
+            </div> 
+            <div class="inputBox">
+                Contact number: <input type="text" placeholder="Enter your number">
+            </div>
+            <div class="inputBox">
+                Date of Birth: <input type="text" placeholder="DD/MM/YYYY">
+            </div>
+            <div class="inputBox">
+                Gender:
+                <input class="bbss" type="radio" name="Gender">Male
+                <input class="bbss" type="radio" name="Gender">Female
+                <input class="bbss" type="radio" name="Gender">Others
+                <br>
+            </div>
+            <div class="inputBox">
+               Email-Address: <input text="text" placeholder="E-mail address">
+            </div>
+            <div class="inputBox">
+                H.No(House No.): <input type="text" placeholder="House. No">
+            </div>
+            <div class="inputBox">
+                House Document number: <input type="text" placeholder="Document No.">
+            </div>
+            <div class="inputBox">
+                How Many UNITS Connection needed: <input type="text" placeholder="Enter number">
+            </div>
+            <div class="inputBox">
+                Username: <input type="text" placeholder="Username">
+                Password: <input type="password" placeholder="Password">
+            </div>
+            <div class="inputBox">
+                <button type="submit">SUBMIT</button>
+            </div>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>
